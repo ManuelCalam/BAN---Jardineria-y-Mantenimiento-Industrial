@@ -560,6 +560,7 @@ main{
 #servicio-info{
     max-width: 100%;
     height: 62%;
+    font-size: larger;
     color: black;
     letter-spacing: 1px;
     font-family: 'Noto Serif', serif;
