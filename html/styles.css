@@ -484,6 +484,7 @@ main{
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
     padding-top: 1em;
     transition: all 180ms ease-in-out;
     /* background-color: violet; */
@@ -492,15 +493,15 @@ main{
 
 .services-sections:hover{
     /* transform: translateX(10px); */
-    transform: scale(1.03);
+    /* transform: scale(1.03); */
 }
 
 .svcs-img{
     width: 28%;
     height: 100%;
-    border-top-left-radius: 5em;
+    /* border-top-left-radius: 5em; */
     box-sizing: border-box;
-    margin-right: 1em;
+    margin-left: 1em;
 
 }
 
@@ -509,7 +510,9 @@ main{
 .svcs-description{
     width: 73%;
     height: 100%;
-    background-color: rgb(228, 255, 228);
+    /* background-color: rgb(228, 255, 228); */
+    background-color: rgb(251, 251, 251);
+
     /* border-top-right-radius: 5em; */
     padding: 1.5em;
     box-sizing: border-box;
@@ -519,6 +522,25 @@ main{
 
 }
 
+
+.svcs-description::before{
+    content: "";
+    height: 3px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    /* background-color: #0077ff; */
+    background-color: #6bd61f;
+    display: block;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 300ms ease-out;
+}
+
+.svcs-description:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 
 
 
@@ -563,16 +585,16 @@ main{
 #servicio-info{
     max-width: 100%;
     height: 62%;
-    /* font-size: larger; */
+    font-size: x-large;
     color: black;
     letter-spacing: 1px;
     font-family: 'Noto Serif', serif;
-    margin: 0;
     background-color: #e7ffd7;
     text-align: justify;
-    padding: 2em 3.5em;
+    padding: 2em 3em;
     box-sizing: border-box;
     display: flex;
+    margin: 0;
     /* border-top: #6bd61f 3px solid; */
 
     /* background-color: #b008bc; */
