@@ -298,7 +298,7 @@ footer{
     height: 180px;
     display: flex;
     align-items: center;
-    background-color: rgb(36, 36, 36);
+    background-color: #252525;
 }
 
 #footer-indexOptions, #footer-logo-container, #footer-Contact{
@@ -325,7 +325,7 @@ footer{
 
 #footer-indexOptions ul li a{
     text-decoration: none;
-    color: #858585;
+    color: #a9a9a9;
     transition: all 200ms ease-out;
 }
 
@@ -361,7 +361,7 @@ footer{
     font-family: 'Quicksand', sans-serif;
     /* border-left: 2px solid orange; */
     /* background-color: red; */
-    color: white;
+    color: #a9a9a9;
 }
 
 #footer-Contact ul{
