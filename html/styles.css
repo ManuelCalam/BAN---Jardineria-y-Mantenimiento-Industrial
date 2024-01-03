@@ -142,10 +142,11 @@ nav{
 .contact-form {
     width: 80%;
     height: 90%;
-    background-color: #358000;
-    /* border-radius: 10px; */
+    background-color: #252525;
+    /* border-radius: 10px;
     border-top-left-radius: 6em;
-    border-top-right-radius: 6em;
+    border-top-right-radius: 6em; */
+    border-radius: 6em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* margin-top: 0; */
     padding: 1em;
@@ -297,6 +298,7 @@ footer{
     height: 180px;
     display: flex;
     align-items: center;
+    background-color: rgb(36, 36, 36);
 }
 
 #footer-indexOptions, #footer-logo-container, #footer-Contact{
@@ -336,7 +338,7 @@ footer{
     font-weight: 900;
     letter-spacing: 4px;
     padding-bottom: 0.4em;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #footer-logo-container{
@@ -359,6 +361,7 @@ footer{
     font-family: 'Quicksand', sans-serif;
     /* border-left: 2px solid orange; */
     /* background-color: red; */
+    color: white;
 }
 
 #footer-Contact ul{
