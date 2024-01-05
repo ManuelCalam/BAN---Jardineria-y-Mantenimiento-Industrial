@@ -453,7 +453,7 @@ main{
     text-align: center;
     box-sizing: border-box;
     margin: 0;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 
@@ -511,7 +511,7 @@ main{
     height: 100%;
     /* background-color: rgb(228, 255, 228); */
     /* background-color: rgb(251, 251, 251); */
-    background-color: firebrick;
+    /* background-color: firebrick; */
 
     /* border-top-right-radius: 5em; */
     padding: 1.5em;
@@ -642,11 +642,12 @@ main{
 #about_dos{
     width: 100%;
     height: 20%;
-    background-color: #6bd61f;
-    background-color: #358000;
+    /* background-color: #6bd61f;
+    background-color: #358000;*/
     background-color: #366B0F;
     flex: 1;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 #imgAbout-container{
@@ -655,7 +656,7 @@ main{
     height: 40%;
     background-color: darkred;
     position: absolute;
-    top: 60%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -669,7 +670,7 @@ main{
 #descriptionAbout-container{
     width: 60%;
     height:40%;
-    background-color: #358000;
+    /* background-color: #358000; */
     margin-top: 2em;
     display: flex;
     margin-left: auto;
@@ -679,9 +680,11 @@ main{
 }
 
 #phrase-container{
-    width: 100%;
+    width: 80%;
     height: 35%;
     /* background-color: blueviolet; */
+    text-align: center;
+    padding: 0 20px
 }
 
 #textUs-container{
@@ -689,16 +692,20 @@ main{
     height: 65%;
     /* background-color: darkblue; */
     float: left;
+    text-align: center;
+    text-align: justify;
 }
 
 #frase{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     margin-top: 0;
+    color: #B69B68;
 }
 
 #frase span {
     font-weight: normal;
+    color: black;
 }
 
 #textUs-container{
@@ -706,3 +713,45 @@ main{
     margin-top: 0;
 }
 
+#prueba-container{
+    width: 100%;
+    height: 55%;
+    /* background-color: darkseagreen; */
+}
+
+#extrasAbout-container{
+    width: 100%;
+    height: 45%;
+    /* background-color: black; */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.extras-container{
+    width: 27%;
+    height: 100%;
+    /* background-color: pink; */
+    border-left: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: var(--spacing--base-1-25);
+}
+
+.titleExtra-container{
+    width: 100%;
+    height: 30%;
+    /* background-color: yellow; */
+}
+
+.textExtra-container{
+    width: 100%;
+    height: 70%;
+    /* background-color: green; */
+}
+
+.textExtra{
+    text-align: left;
+}
