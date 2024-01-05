@@ -491,10 +491,10 @@ main{
 
 }
 
-.services-sections:hover{
-    /* transform: translateX(10px); */
-    /* transform: scale(1.03); */
-}
+/* .services-sections:hover{
+    transform: translateX(10px);
+    transform: scale(1.03);
+} */
 
 .svcs-img{
     width: 28%;
@@ -562,58 +562,98 @@ main{
 /* Seccion de Servicios */
 .main-Servicio{
     max-width: 100%;
-    height: 700px;
+    height: 900px;
+    /* background-color: gold; */
 }
+
+
+#servicio-imagenes{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    box-sizing: border-box;
+    /* background-color: dodgerblue; */
+}
+
+#servicio-img-1{
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    /* background-color: firebrick; */
+}
+
+#servicio-img-2{
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    padding-left: 0;
+    /* background-color: mediumslateblue; */
+}
+
+#servicio-img-3{
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    padding-left: 0;
+    /* background-color: navy; */
+}
+
+#servicio-info{
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    background-color: #358000;
+}
+
+.main-Servicio div img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-size: contain;
+}
+
+
 
 #servicio-titulo{
     width: 68%;
-    height: 38%;
-    padding: 1em 3em;
-    padding-bottom: 0;
+    height: 40%;
+    padding: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     box-sizing: border-box;
     /* background-color: red; */
 }
 
 #servicio-titulo h1{
-    color: #6bd61f;
+    color: white;
     letter-spacing: 1px;
+    font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    /* margin: 0; */
+    font-size: 40px;
+    margin: 0%;
+    
 }
 
-#servicio-info{
-    max-width: 100%;
-    height: 62%;
-    font-size: x-large;
-    color: black;
-    letter-spacing: 1px;
-    font-family: 'Noto Serif', serif;
-    background-color: #e7ffd7;
-    text-align: justify;
-    padding: 2em 3em;
+#servicio-detalles{
+    width: 70%;
+    height: 60%;
+    padding: 1em 3em;
     box-sizing: border-box;
-    display: flex;
-    margin: 0;
-    /* border-top: #6bd61f 3px solid; */
-
-    /* background-color: #b008bc; */
-
+    /* background-color: darkorchid; */
 }
 
 
 .main-Servicio div p{
-    width: 40%;
     padding-right: 2em;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-
-    /* background-color: #6bd61f; */
+    color: white;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
 }
 
-.main-Servicio div img{
-    width: 60%;
-    box-sizing: border-box;
-    /* border-radius: 50%; */
-    /* background-color: violet; */
-}
