@@ -136,7 +136,10 @@ nav{
     justify-content: center;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
+<<<<<<< HEAD
     background-color: burlywood;
+=======
+>>>>>>> 41b084894b5992660dd13c51c9b4c96ebf2f781c
 }
 
 #cont_titulo{
@@ -436,6 +439,7 @@ main{
     text-align: center;
     box-sizing: border-box;
     margin: 0;
+    /* background-color: aqua; */
 }
 
 
@@ -473,10 +477,10 @@ main{
 
 }
 
-/* .services-sections:hover{
-    transform: translateX(10px);
-    transform: scale(1.03);
-} */
+.services-sections:hover{
+    /* transform: translateX(10px); */
+    /* transform: scale(1.03); */
+}
 
 .svcs-img{
     width: 28%;
@@ -484,7 +488,6 @@ main{
     /* border-top-left-radius: 5em; */
     box-sizing: border-box;
     margin-left: 1em;
-
 }
 
 
@@ -493,7 +496,8 @@ main{
     width: 73%;
     height: 100%;
     /* background-color: rgb(228, 255, 228); */
-    background-color: rgb(251, 251, 251);
+    /* background-color: rgb(251, 251, 251); */
+    /* background-color: firebrick; */
 
     /* border-top-right-radius: 5em; */
     padding: 1.5em;
@@ -544,98 +548,196 @@ main{
 /* Seccion de Servicios */
 .main-Servicio{
     max-width: 100%;
-    height: 900px;
-    /* background-color: gold; */
+    height: 700px;
 }
-
-
-#servicio-imagenes{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    box-sizing: border-box;
-    /* background-color: dodgerblue; */
-}
-
-#servicio-img-1{
-    width: 30%;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 1em;
-    /* background-color: firebrick; */
-}
-
-#servicio-img-2{
-    width: 40%;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 1em;
-    padding-left: 0;
-    /* background-color: mediumslateblue; */
-}
-
-#servicio-img-3{
-    width: 30%;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 1em;
-    padding-left: 0;
-    /* background-color: navy; */
-}
-
-#servicio-info{
-    width: 100%;
-    height: 50%;
-    box-sizing: border-box;
-    background-color: #358000;
-}
-
-.main-Servicio div img{
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    background-size: contain;
-}
-
-
 
 #servicio-titulo{
     width: 68%;
-    height: 40%;
-    padding: 3em;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    height: 38%;
+    padding: 1em 3em;
+    padding-bottom: 0;
     box-sizing: border-box;
     /* background-color: red; */
 }
 
 #servicio-titulo h1{
-    color: white;
+    color: #6bd61f;
     letter-spacing: 1px;
-    font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    margin: 0%;
-    
+    font-size: 50px;
+    /* margin: 0; */
 }
 
-#servicio-detalles{
-    width: 70%;
-    height: 60%;
-    padding: 1em 3em;
+#servicio-info{
+    max-width: 100%;
+    height: 62%;
+    font-size: x-large;
+    color: black;
+    letter-spacing: 1px;
+    font-family: 'Noto Serif', serif;
+    background-color: #e7ffd7;
+    text-align: justify;
+    padding: 2em 3em;
     box-sizing: border-box;
-    /* background-color: darkorchid; */
+    display: flex;
+    margin: 0;
+    /* border-top: #6bd61f 3px solid; */
+
+    /* background-color: #b008bc; */
+
 }
 
 
 .main-Servicio div p{
+    width: 40%;
     padding-right: 2em;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    /* background-color: #6bd61f; */
+}
+
+.main-Servicio div img{
+    width: 60%;
+    box-sizing: border-box;
+    /* border-radius: 50%; */
+    /* background-color: violet; */
+}
+
+
+#aboutUs-container{
+    width: 100%;
+    height: 60em;
+    /* background-color: purple; */
+    display: flex;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about_uno{
+    width: 100%;
+    height: 80%;
+    /* background-color: aqua; */
+    flex: 1;
+}
+
+
+#about_dos{
+    width: 100%;
+    height: 20%;
+    /* background-color: #6bd61f;
+    background-color: #358000;*/
+    background-color: #366B0F;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#imgAbout-container{
+    position: relative;
+    width: 90%;
+    height: 40%;
+    background-color: darkred;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-image: url(../img/aboutUs.jpg);
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+}
+
+#descriptionAbout-container{
+    width: 60%;
+    height:40%;
+    /* background-color: #358000; */
+    margin-top: 2em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+#phrase-container{
+    width: 80%;
+    height: 35%;
+    /* background-color: blueviolet; */
+    text-align: center;
+    padding: 0 20px
+}
+
+#textUs-container{
+    width: 100%;
+    height: 65%;
+    /* background-color: darkblue; */
+    float: left;
+    text-align: center;
     text-align: justify;
 }
 
+#frase{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    color: #B69B68;
+}
+
+#frase span {
+    font-weight: normal;
+    color: black;
+}
+
+#textUs-container{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 0;
+}
+
+#prueba-container{
+    width: 100%;
+    height: 55%;
+    /* background-color: darkseagreen; */
+}
+
+#extrasAbout-container{
+    width: 100%;
+    height: 45%;
+    /* background-color: black; */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.extras-container{
+    width: 27%;
+    height: 100%;
+    /* background-color: pink; */
+    border-left: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: var(--spacing--base-1-25);
+}
+
+.titleExtra-container{
+    width: 100%;
+    height: 30%;
+    /* background-color: yellow; */
+}
+
+.textExtra-container{
+    width: 100%;
+    height: 70%;
+    /* background-color: green; */
+}
+
+.textExtra{
+    text-align: left;
+}
