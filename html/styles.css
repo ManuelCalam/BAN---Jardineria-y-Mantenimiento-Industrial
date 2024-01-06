@@ -186,6 +186,9 @@ nav{
 #form{
     width: 100%;
     height: 50%;
+    margin: 0 3em;
+    box-sizing: border-box;
+    border-bottom: 3px solid #6f6f6f;
     /* background-color: rgb(176, 212, 15); */
 }
 
@@ -208,7 +211,6 @@ nav{
 #cont_btn{
     width: 100%;
     height: 10%;
-    margin-top: 1em;
     float: left;
     display: flex; 
     justify-content: center; 
@@ -289,6 +291,10 @@ select{
     flex-direction: column;
     align-items: stretch;
     /* background-color: red; */
+}
+
+#ubicacion-info p{
+    margin: 0;
 }
 
 #ubicacion-info {
@@ -663,7 +669,7 @@ main{
 
 #servicio-detalles{
     width: 70%;
-    height: 60%;
+    height: 48%;
     padding: 1em 3em;
     box-sizing: border-box;
     /* background-color: darkorchid; */
@@ -680,8 +686,39 @@ main{
     text-align: justify;
 }
 
+#servicio-btn{
+    width: 63.5%;
+    height: 12%;
+    padding-left: 3em;
+    /* padding-bottom: 2em; */
+    box-sizing: border-box;
+    /* background-color: blue; */
+}
+
+#servicio-btn button{
+    width: 17%;
+    height: 75%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: white;
+    float: inline-end;
+    transition: all 150ms ease;
+
+}
+
+#servicio-btn button:hover{
+    background-color: white;
+    border: white;
+    color: black;
+    cursor: pointer;
+}
 
 
+/* Seccion de Acerca de nosotros */
 
 #aboutUs-container{
     width: 100%;
