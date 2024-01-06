@@ -669,6 +669,7 @@ main{
     /* background-color: #6bd61f;
     background-color: #358000;*/
     background-color: #366B0F;
+    background-color: #358000;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -689,6 +690,11 @@ main{
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 1em;
+}
+
+#imgAbout-container:hover {
+    /* width: 92%;
+    height: 45%; */
 }
 
 #descriptionAbout-container{
@@ -745,8 +751,8 @@ main{
 
 #extrasAbout-container{
     width: 100%;
-    height: 45%;
-    /* background-color: black; */
+    height: 55%;
+    background-color: black;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -756,7 +762,7 @@ main{
 .extras-container{
     width: 27%;
     height: 100%;
-    /* background-color: pink; */
+    background-color: pink;
     border-left: 2px solid green;
     display: flex;
     flex-direction: column;
@@ -778,4 +784,49 @@ main{
 
 .textExtra{
     text-align: left;
+}
+
+
+#main-AboutUs{
+    max-width: 100%;
+    height: 50em;
+    background-color: #b008bc;
+}
+
+#titulo{
+    width: 100%;
+    height: 5em;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+#description{
+    width: 100%;
+    height: 13em;
+    background-color: rgb(162, 0, 255);
+    margin: 0;
+    padding: 0;
+}
+
+
+#img{
+    width: 100%;
+    height: 13em;
+    background-color: rgb(255, 98, 0);
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    background-image: url(../img/aboutUs.jpg);
+    background-size: cover;
+}
+
+#opciones{
+    width: 100%;
+    height: 20em;
+    background-color: rgb(21, 255, 0);
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
 }
