@@ -890,11 +890,16 @@ main{
 }
 
 #description{
-    width: 100%;
+    width: 80%;
     height: 13em;
     background-color: rgb(162, 0, 255);
-    margin: 0;
-    padding: 0;
+    /* padding: 0; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 1em;
+    border-radius: 1em;
+    border: 5px solid green;
+    margin-top: 1em;
 }
 
 
