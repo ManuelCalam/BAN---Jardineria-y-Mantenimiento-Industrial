@@ -623,6 +623,15 @@ main{
     /* background-color: firebrick; */
 }
 
+#servicio-img-1 img{
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+
+
 #servicio-img-2{
     width: 40%;
     height: 100%;
@@ -630,6 +639,13 @@ main{
     padding: 1em;
     padding-left: 0;
     /* background-color: mediumslateblue; */
+}
+
+#servicio-img-2 img{
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    display: block;
 }
 
 #servicio-img-3{
@@ -640,6 +656,14 @@ main{
     padding-left: 0;
     /* background-color: navy; */
 }
+
+#servicio-img-3 img{
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    display: block;
+}
+
 
 #servicio-info{
     width: 100%;
