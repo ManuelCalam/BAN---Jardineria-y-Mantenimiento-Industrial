@@ -699,6 +699,7 @@ main{
 
 #descriptionAbout-container{
     width: 60%;
+    /* width: 72%; */
     height:40%;
     /* background-color: #358000; */
     margin-top: 2em;
@@ -791,7 +792,7 @@ main{
 
 #main-AboutUs{
     max-width: 100%;
-    height: 75em;
+    height: 58em;
     /* background-color: #b008bc; */
     background-color: #D5DECF;
     background-color: #E9EFE7;
@@ -804,7 +805,7 @@ main{
     margin: 0;
     padding: 0;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 3em;
 }
 
 #descriptionAboutUs-container{
@@ -850,11 +851,13 @@ main{
     width: 100%;
     height: 20em;
     /* background-color: rgb(21, 255, 0); */
+    /* background-color: pink; */
     background-color: #358000;
     margin: 0;
     padding: 0;
     display: flex; 
     justify-content: center; 
+    /* margin-bottom: 20em; */
 }
 
 .texto-Extra{
@@ -872,6 +875,7 @@ main{
 #tituloAboutUs{
     font-family: 'Quicksand', sans-serif;
     font-size:xx-large;
+    font-size: 42px;
     font-weight: bold;
 }
 
@@ -889,4 +893,75 @@ main{
 
 #mainAboutUs{
     margin-top: 100px;
+}
+
+#seccion{
+    width: 100%;
+    height: 30em;
+    /* background-color: #b008bc; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#seccion-uno{
+    width: 80%;
+    height: 75%;
+    /* background-color: wheat; */
+    background-color: #E9EFE7;
+}
+
+#seccion-dos{
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+    background-color: #358000;
+    float: left;
+    margin: 0;
+    padding: 0;
+    /* border-radius: 15px; */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+#seccion-tres{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+#texto-Acerca{
+    font-size: medium;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    color: #F3FFEB;
+}
+
+#seccion-dose{
+    width: 85%;
+    height: 72%;
+    /* background-color: #B69B68; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5em;
+}
+
+#img-Acerca{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#section-AboutUs{
+    width: 100%;
+    height: 50em;
+    /* background-color: tomato; */
 }
