@@ -563,13 +563,13 @@ main{
 }
 
 
-.svcs-description::before{
+/* .svcs-description::before{
     content: "";
     height: 3px;
     width: 100%;
     bottom: 0;
     left: 0;
-    /* background-color: #0077ff; */
+    background-color: #0077ff;
     background-color: #6bd61f;
     display: block;
     transform: scaleX(0);
@@ -580,7 +580,7 @@ main{
 .svcs-description:hover::before{
     transform: scaleX(1);
     transform-origin: bottom left;
-}
+} */
 
 
 
