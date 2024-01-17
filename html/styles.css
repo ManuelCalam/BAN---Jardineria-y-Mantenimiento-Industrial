@@ -563,13 +563,13 @@ main{
 }
 
 
-.svcs-description::before{
+/* .svcs-description::before{
     content: "";
     height: 3px;
     width: 100%;
     bottom: 0;
     left: 0;
-    /* background-color: #0077ff; */
+    background-color: #0077ff;
     background-color: #6bd61f;
     display: block;
     transform: scaleX(0);
@@ -580,7 +580,7 @@ main{
 .svcs-description:hover::before{
     transform: scaleX(1);
     transform-origin: bottom left;
-}
+} */
 
 
 
@@ -615,7 +615,7 @@ main{
     /* background-color: dodgerblue; */
 }
 
-#servicio-img-1{
+.servicio-img-1{
     width: 30%;
     height: 100%;
     box-sizing: border-box;
@@ -623,7 +623,16 @@ main{
     /* background-color: firebrick; */
 }
 
-#servicio-img-2{
+.servicio-img-1 img{
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.servicio-img-2{
     width: 40%;
     height: 100%;
     box-sizing: border-box;
@@ -632,7 +641,14 @@ main{
     /* background-color: mediumslateblue; */
 }
 
-#servicio-img-3{
+.servicio-img-2 img{
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.servicio-img-3{
     width: 30%;
     height: 100%;
     box-sizing: border-box;
@@ -640,6 +656,14 @@ main{
     padding-left: 0;
     /* background-color: navy; */
 }
+
+.servicio-img-3 img{
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    display: block;
+}
+
 
 #servicio-info{
     width: 100%;
@@ -727,6 +751,21 @@ main{
     color: black;
     cursor: pointer;
 }
+
+
+
+#img-construction-1{
+    width: 35%;
+}
+
+#img-construction-2{
+    width: 35%;
+}
+
+#img-construction-3{
+    width: 30%;
+}
+
 
 
 /* Seccion de Acerca de nosotros */
