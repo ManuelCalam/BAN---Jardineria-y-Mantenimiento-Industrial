@@ -1109,3 +1109,101 @@ main{
     height: 50em;
     /* background-color: tomato; */
 }
+
+#mainComentariosUsuarios{
+    width: 100%;
+    height: 45em;
+    /* background-color: red; */
+    background-color: #E9EFE7;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#secComentarios-container{
+    width: 85%;
+    height: 33em;
+    /* background-color: #b008bc; */
+    background-color: #D2DECE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    box-shadow:  20px 20px 60px #b3bdaf,
+             -20px -20px 60px #f2ffed;
+    
+    box-shadow: 20px 20px 60px #b3bdaf,
+             -20px -20px 60px #f2ffed;
+}
+
+#comentarios-container{
+    width: 90%;
+    height: 90%;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.comentario-container{
+    width: 50%;
+    height: 90%;
+    background-color: aqua;
+    background-color: #F4F7F3;
+    margin: 2em;
+    flex: 1;
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+
+.resena-container{
+    width: 100%;
+    height: 80%;
+    /* background-color: violet; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cliente-container{
+    width: 100%;
+    height: 20%;
+    /* background-color: brown; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoComentario{
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+    text-align: justify;
+    /* background-color: aqua; */
+
+    padding: 1em 1em;
+}
+
+.textoCliente{
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;   
+    /* background-color: aqua; */
+    padding: 1em 1em; 
+    font-weight: bold;
+}
+
+#titleComentariosUsuarios-container{
+    width: 100%;
+    height: 5em;
+    /* background-color: aqua; */
+    text-align: center;
+    
+}
+
+#tituloComentariosUsuarios{
+    font-family: 'Quicksand', sans-serif;
+    font-size:xx-large;
+    font-size: 42px;
+    font-weight: bold;
+}
