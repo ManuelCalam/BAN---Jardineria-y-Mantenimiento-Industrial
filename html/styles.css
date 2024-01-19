@@ -1373,7 +1373,42 @@ main{
 
 
 
+    #aboutUs-container{
+        height: 36em;
+    }
 
+    #about_uno{
+        height: 75%;
+        flex: none;
+    }
+
+    #descriptionAbout-container{
+        width: 100%;
+        height: 80%;
+        padding: 0 2em;
+        box-sizing: border-box;
+        margin-top: 1em;
+    }
+
+    #phrase-container{
+        width: 100%;
+        height: 23%;
+        font-size: small;
+    }
+
+    #textUs-container{
+        height: 77%;
+    }
+
+    #imgAbout-container{
+        height: 30%;
+        top: 75%;
+    }
+
+    #about_dos{
+        height: 25%;
+        flex: none;
+    }
 
 
     footer{
