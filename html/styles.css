@@ -1112,30 +1112,23 @@ main{
 
 #mainComentariosUsuarios{
     width: 100%;
-    height: 45em;
-    /* background-color: red; */
-    background-color: #E9EFE7;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    height: auto;
+    background-color: white;
 }
 
 #secComentarios-container{
-    width: 85%;
+    width: 100%;
     height: 33em;
-    /* background-color: #b008bc; */
-    background-color: #D2DECE;
+    height: auto;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
     border-radius: 10px;
-    box-shadow:  20px 20px 60px #b3bdaf,
-             -20px -20px 60px #f2ffed;
-    
-    box-shadow: 20px 20px 60px #b3bdaf,
-             -20px -20px 60px #f2ffed;
+    /* box-shadow: 20px 20px 60px #b3bdaf,
+             -20px -20px 60px #f2ffed; */
 }
 
 #comentarios-container{
@@ -1143,23 +1136,40 @@ main{
     height: 90%;
     /* background-color: yellow; */
     display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
 }
 
 .comentario-container{
-    width: 50%;
-    height: 90%;
-    background-color: aqua;
-    background-color: #F4F7F3;
+    width: 26%;
+    min-height: 25em;
+    background-color: #358000;
     margin: 2em;
-    flex: 1;
     margin-bottom: 2em;
     border-radius: 10px;
 }
 
+.comillas-container{
+    width: 100%;
+    height: 18%;
+    /* background-color: yellow; */
+    float: left;
+}
+
+.img_comillas{
+    width: 20%;
+    height: 60%;
+    /* background-color: blue; */
+    float: left;
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+
 .resena-container{
     width: 100%;
-    height: 80%;
-    /* background-color: violet; */
+    height: 70%;
+    /* background-color: red; */
     float: left;
     display: flex;
     justify-content: center;
@@ -1168,7 +1178,7 @@ main{
 
 .cliente-container{
     width: 100%;
-    height: 20%;
+    height: 12%;
     /* background-color: brown; */
     float: left;
     display: flex;
@@ -1181,16 +1191,20 @@ main{
     font-size: large;
     text-align: justify;
     /* background-color: aqua; */
-
     padding: 1em 1em;
+    color: whitesmoke;
 }
 
 .textoCliente{
     font-family: 'Quicksand', sans-serif;
     font-size: large;   
     /* background-color: aqua; */
-    padding: 1em 1em; 
+    /* padding: 1em 1em;  */
     font-weight: bold;
+    color: whitesmoke;
+    width: auto;
+    height: 50%;
+    margin-bottom: 2.4em;
 }
 
 #titleComentariosUsuarios-container{
@@ -1206,4 +1220,11 @@ main{
     font-size:xx-large;
     font-size: 42px;
     font-weight: bold;
+}
+
+.comillas{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    background-color: #6f6f6f;
 }
