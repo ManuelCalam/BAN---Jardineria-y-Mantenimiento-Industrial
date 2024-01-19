@@ -439,7 +439,7 @@ main{
     width: 100%;
     height:400px;
     display: flex;
-    background-image: url(../img/fondo2.jpg);
+    background-image: url(../img/fondo5.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -1239,10 +1239,8 @@ main{
 }
 
 
-
-/* Responsive para dispositivos móviles */
 @media(max-width: 767px){
-    body, nav, main, footer, ul, #main-presentation, #services-container{
+    body, nav, main, footer, .horizontal-menu, #main-presentation, #services-container{
         width: 100vw;
     }
 
@@ -1261,11 +1259,11 @@ main{
 
 
 
-    ul{
+    .horizontal-menu{
         position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: rgb(203, 203, 203);
+        /* width: 100%; */
+        height: calc(100% - 120px);
+        background-color: rgb(55, 55, 55);
         top: 120px;
         left: -200%;
         text-align: center;
@@ -1275,6 +1273,18 @@ main{
         flex-wrap: wrap;
         align-items: center;
         margin: 0;
+
+    }
+
+    .vertical-menu{
+        left: 0;
+        margin: 1em;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+
+    .vertical-menu li a:hover{
+        transform: none;
     }
 
     nav ul li{
@@ -1286,17 +1296,32 @@ main{
 
     nav ul li a{
         font-size: 16.5px;
+
+    }
+
+
+    .horizontal-menu li a{
+        font-size: larger;
+        color: white;
+    }
+
+    .vertical-menu li a{
+        font-size: medium;
+        color: black;
     }
 
     li a:hover, li a.active{
-        background: #bf0d00;
-        color:white;
+        color:#6bd61f;
     }
 
     #click:checked ~ ul{
         left:0;
+        overflow: hidden;
     }
 
+    #click:checked {
+        overflow: hidden; /* Oculta la barra de desplazamiento cuando #click está marcado */
+    }
 
     #nav-logo-Container {
         width: 50%;
@@ -1305,13 +1330,87 @@ main{
         flex-wrap: wrap;
     }
 
+    /* index */
+
     #main-logo {
         width: 100%;
-        height: 50%;
+        height: 45%;
     }
 
     #services-header h3{
-        font-size: 1em;
+        font-size: 1.2em;
+        text-align: justify;
+
+    }
+
+
+    #services-container{
+        height: auto;
+        padding: 0 2em;
+    }
+
+    #services-main{
+        padding: 0;
+    }
+
+    .services-sections{
+        flex-direction: column-reverse;
+    }
+
+    .svcs-img{
+        margin: 0;
+        width: 100%;
+    }
+
+    .svcs-description{
+        width: 100%;
+        padding: 0;
+    }
+
+    .svcs-text{
+        font-size: larger;
+    }
+
+
+
+
+
+
+    footer{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #footer-logo-container{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 1.5em;
+    }
+
+    #footer-indexOptions{
+        justify-content: center;
+        width: 100%;
+        
+    }
+
+    #footer-indexOptions ul{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #footer-Contact{
+        width: 100%;
+    }
+
+    #footer-Contact ul{
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
