@@ -1139,11 +1139,11 @@ main{
 #comentarios-container{
     width: 90%;
     height: 90%;
-    /* background-color: yellow; */
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    
+    justify-content: center;
+    /* background-color: yellow; */
 }
 
 .comentario-container{
