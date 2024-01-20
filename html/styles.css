@@ -522,10 +522,10 @@ main{
 
 }
 
-.services-sections:hover{
-    /* transform: translateX(10px); */
-    /* transform: scale(1.03); */
-}
+/* .services-sections:hover{
+    transform: translateX(10px); 
+    transform: scale(1.03);
+} */
 
 .svcs-img{
     width: 28%;
@@ -826,10 +826,10 @@ main{
     height: 100%;
 }
 
-#imgAbout-container:hover {
-    /* width: 92%;
-    height: 45%; */
-}
+/* #imgAbout-container:hover {
+     width: 92%;
+    height: 45%; 
+} */
 
 #descriptionAbout-container{
     width: 60%;
