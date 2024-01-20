@@ -899,12 +899,15 @@ main{
 .extras-container{
     width: 25%;
     height: 100%;
-    /* background-color: pink; */
     border-left: 2px solid #8DC069;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 1em;
+}
+
+#container-border{
+    border: none;
 }
 
 .titleExtra-container{
@@ -996,8 +999,6 @@ main{
 #extrasAbout{
     width: 100%;
     height: 20em;
-    /* background-color: rgb(21, 255, 0); */
-    /* background-color: pink; */
     background-color: #358000;
     margin: 0;
     padding: 0;
@@ -1011,9 +1012,6 @@ main{
    text-align:justify;
    padding-right: 3em;
    font-family: 'Quicksand', sans-serif;
-   font-size: 18;
-   color: #D5DECF;
-   color: #C4DCB3;
    color: #F4F7F3;
    opacity: 10;
 }
@@ -1028,11 +1026,7 @@ main{
 #tituloExtra{
     font-family: 'Quicksand', sans-serif;
     font-size:large;
-    color: #C4CDBD;
-    color: #C4DCB3;
     color: white;
-    color: whitesmoke;
-    color: #F4F7F3;
     font-weight: 600;
 
 }
@@ -1053,14 +1047,12 @@ main{
 #seccion-uno{
     width: 80%;
     height: 75%;
-    /* background-color: wheat; */
     background-color: #E9EFE7;
 }
 
 #seccion-dos{
     width: 50%;
     height: 100%;
-    background-color: brown;
     background-color: #358000;
     float: left;
     margin: 0;
@@ -1457,6 +1449,170 @@ main{
         justify-content: center;
         flex-direction: column;
         align-items: center;
+    }
+    
+
+
+    /* Acerca de nosotros */
+    #mainAboutUs{
+        margin-top: 120px;
+    }
+
+    #main-AboutUs{
+        height: auto;
+    }
+
+    #titleAboutUs-container{
+        height: auto;
+        padding: 1em 0;
+    }
+
+    #tituloAboutUs{
+        margin: 0;
+        font-size: xx-large;
+    }
+
+    #section-AboutUs{
+        height: 63em;
+    }
+
+    #seccion{
+        height: 60%;
+    }
+
+    #seccion-uno{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    #seccion-dos{
+        width: 100%;
+        height: 60%;
+        border-radius: 0%;
+    }
+
+    #seccion-dose{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #texto-Acerca{
+        margin: 0;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+
+    #seccion-tres{
+        width: 100%;
+        height: 40%;
+    }
+
+    #img-Acerca{
+        border-radius: 0;
+    }
+
+
+    #extrasAbout{
+        height: 40%;
+        box-sizing: border-box;
+        padding: 0 1em;
+    }
+
+    #extrasAbout-container{
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .extras-container{
+        width: 100%;
+        border-left: none;
+        padding: 0;
+        border-bottom: 2px solid #8DC069;
+    }
+
+    #container-border{
+        border-bottom: 2px solid #8DC069;
+    }
+
+    .titleExtra-container {
+        height: 25%;
+    }
+
+
+    .textExtra-container {
+        height: 75%;
+    }
+
+    .texto-Extra{
+        padding: 0;
+        margin: 0;
+        margin-top: 0.5em;
+    }
+
+
+    /* Contacto */
+    #form-ContactUs{
+        height: 82em;
+    }
+
+
+    #form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0 2em;
+        box-sizing: border-box;
+        padding-bottom: 1em;
+    }
+
+    #form_uno{
+        width: 100%;
+        margin: 0;
+    }
+
+    #form_uno textarea{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #form_dos{
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        padding-top: 1.5em;
+    }
+    
+
+    #btn_enviar{
+        width: 50%;
+        height: 85%;
+    }
+
+    input, select{
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    #ubicacion-info{
+        box-sizing: border-box;
+        padding: 0 2em;
+    }
+
+    #ubicacion-info p {
+        text-align: center;
+    }
+
+    #ubicacion-info iframe{
+        width: 100%;
     }
 }
 

@@ -11,12 +11,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&family=Noto+Serif:wght@100;300&family=Quicksand:wght@500&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+                           integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+                           crossorigin="anonymous" referrerpolicy="no-refferer">
 </head>
 <body>
     <nav>
         <div id="nav-logo-Container">
             <a href="index.html"><img src="../img/BAN - Logo.png" alt="Logo de BAN - Jardineria y Manenimiento Industrial" id="nav-Logo"></a>
         </div>
+
+        <input type="checkbox" id="click">
+        <label for="click" class="btn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
 
         <ul class="horizontal-menu">
             <li><a href="index.html" class="navOpts-underline-hover">Inicio</a></li>
@@ -85,12 +93,13 @@
                         <label for="servicio">Servicio de interés</label>
                         <select id="servicio" name="servicio" required>
                             <option value="" disabled selected>Seleccione una opción</option>
-                            <option value="google">Jardineria</option>
-                            <option value="redes_sociales">Construcción</option>
-                            <option value="publicidad">Riego residecial</option>
-                            <option value="recomendacion">Limpieza industrial</option>
+                            <option value="Jardineria">Jardineria</option>
+                            <option value="Construccion">Construcción</option>
+                            <option value="Riego">Riego residecial</option>
+                            <option value="Limpieza">Limpieza industrial</option>
                         </select>
 
+                        <p style="color: white;">Leyenda de privacidad de los datos del usuarios</p>
                     </section>
                     <div id="cont_btn"><button id="btn_enviar">Enviar</button></div>
                 </form>
