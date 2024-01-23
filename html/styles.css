@@ -627,7 +627,7 @@ main{
 
 .servicio-img-1 img{
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
     object-fit: cover;
     display: block;
 }
@@ -645,7 +645,7 @@ main{
 
 .servicio-img-2 img{
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
     object-fit: cover;
     display: block;
 }
@@ -661,7 +661,7 @@ main{
 
 .servicio-img-3 img{
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
     object-fit: cover;
     display: block;
 }
@@ -1452,6 +1452,81 @@ main{
     }
     
 
+    /* Servicios */
+    .main-Servicio{
+        max-width: 100%;
+        height: 95em;
+    }
+
+    #servicio-imagenes{
+        height: 65%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio-img-1{
+        width: 100%;
+        height: 40%;
+    }
+
+    .servicio-img-2{
+        width: 100%;
+        height: 30%;
+        padding: 1em;
+    }
+
+    .servicio-img-3{
+        width: 100%;
+        height: 30%;
+        padding: 1em;
+    }
+
+    #img-construction-1{
+        width: 100%;
+    }
+
+    #img-construction-2{
+        width: 100%;
+    }
+
+    #img-construction-3{
+        width: 100%;
+    }
+
+    #servicio-info{
+        height: 35%;
+    }
+
+    #servicio-titulo{
+        width: 100%;
+        padding: 0 1em;
+    }
+
+    #servicio-titulo h1{
+        font-size: 30px;
+        text-align: left;
+    }
+
+    #servicio-detalles{
+        width: 100%;
+        padding: 0 1em;
+    }
+
+    .main-Servicio div p{
+        padding: 0;
+        margin: 0;
+    }
+
+    #servicio-btn{
+        width: 100%;
+        padding: 0;
+        padding-right: 1em;
+    }
+
+    #servicio-btn button{
+        width: 38%;
+        height: 80%;
+    }
 
     /* Acerca de nosotros */
     #mainAboutUs{
@@ -1613,6 +1688,27 @@ main{
 
     #ubicacion-info iframe{
         width: 100%;
+    }
+
+
+    /* Comentarios de clientes */
+    #titleComentariosUsuarios-container{
+        height: 3em;
+    }
+
+    #tituloComentariosUsuarios{
+        font-size: xx-large;
+    }
+    
+    #comentarios-container{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comentario-container{
+        width: 100%;
+        margin: 1em;
     }
 }
 
