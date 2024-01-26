@@ -217,6 +217,7 @@ nav{
     display: flex; 
     justify-content: center; 
     align-items: center;
+    margin-top: 1em;
     /* background-color: aqua; */
 }  
 
@@ -533,6 +534,7 @@ main{
     /* border-top-left-radius: 5em; */
     box-sizing: border-box;
     margin-left: 1em;
+    object-fit: cover;
 }
 
 /* #svcs-section-1::before{
@@ -865,8 +867,21 @@ main{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     margin-top: 0;
-    color: #B69B68;
+    color: #f01bff;
 }
+
+@keyframes circle-in-center {
+    from {
+      clip-path: circle(0%);
+    }
+    to {
+      clip-path: circle(125%);
+    }
+  }
+  
+  [transition-style="in:circle:center"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-center both;
+  }
 
 #frase span {
     font-weight: normal;
@@ -1641,6 +1656,7 @@ main{
 
 
     #form{
+        height: 60%;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -1665,7 +1681,7 @@ main{
         box-sizing: border-box;
         padding-top: 1.5em;
     }
-    
+
 
     #btn_enviar{
         width: 50%;
@@ -1675,6 +1691,10 @@ main{
     input, select{
         width: 100%;
         padding: 0.5em 0;
+    }
+
+    #ubicacion{
+        height: 30%;
     }
 
     #ubicacion-info{
@@ -1709,6 +1729,204 @@ main{
     .comentario-container{
         width: 100%;
         margin: 1em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    body, nav, main, footer, .horizontal-menu, #main-presentation, #services-container{
+        width: 100vw;
+    }
+
+    .titles{
+        font-size: 60px;
+    }
+
+    nav{
+        justify-content: space-between;
+        
+    }
+
+    .btn{
+        display: block;
+    }
+
+
+
+    .horizontal-menu{
+        position: fixed;
+        /* width: 100%; */
+        height: calc(100% - 120px);
+        background-color: rgb(55, 55, 55);
+        top: 120px;
+        left: -200%;
+        text-align: center;
+        transition: all .5s;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0;
+
+    }
+
+    .vertical-menu{
+        left: 0;
+        margin: 1em;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+
+    .vertical-menu li a:hover{
+        transform: none;
+    }
+
+    nav ul li{
+        display: block;
+        float: none;
+        /* margin: 50px 0;
+        line-height: 30px; */
+    }
+
+    nav ul li a{
+        font-size: 16.5px;
+
+    }
+
+
+    .horizontal-menu li a{
+        font-size: xx-large;
+        color: white;
+    }
+
+    .vertical-menu li a{
+        font-size: larger;
+        color: black;
+    }
+
+    li a:hover, li a.active{
+        color:#6bd61f;
+    }
+
+    #click:checked ~ ul{
+        left:0;
+        overflow: hidden;
+    }
+
+    #click:checked {
+        overflow: hidden; /* Oculta la barra de desplazamiento cuando #click está marcado */
+    }
+
+    #nav-logo-Container {
+        width: 30%;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    
+
+    #main-logo{
+        width: 75%;
+    }
+    
+    .svcs-description{
+        padding: 0;
+    }
+
+    #aboutUs-container {
+        height: 47em;
+    }
+
+    #descriptionAbout-container {
+        width: 90%;
+        height: 50%;
+        margin-top: 0;
+    }
+
+    #imgAbout-container {
+        height: 52%;
+    }
+
+    #footer-indexOptions ul li a {
+        font-size: smaller;
+    }
+
+    #servicio-titulo{
+        width: 90%;
+        padding: 0 3em;
+    }
+
+    #servicio-detalles{
+        width: 80%;
+        padding: 0 3em;
+    }
+
+    .main-Servicio div p{
+        margin: 0;
+    }
+
+    #servicio-btn{
+        width: 69%;
+    }
+
+    #servicio-btn button{
+        width: 26%;
+    }
+
+    .main-Servicio {
+        height: 730px;
+    }
+
+    #servicio-imagenes{
+        height: 40%;
+    }
+    
+    #servicio-info{
+        height: 60%;
+    }
+
+
+    #seccion-dose{
+        height: 100%;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    #texto-Acerca{
+        font-size: smaller;
+        margin: 0;
+    }
+
+    #tituloExtra{
+        font-size: medium;
+    }
+
+    .texto-Extra{
+        font-size: smaller;
+    }
+
+    #form_uno{
+        margin-left: 2.5em;
+    }
+
+    #form_dos{
+        margin-right: 2.5em;
+    }
+
+    #cont_btn{
+        margin-top: 1em;
+    }
+
+    #ubicacion-info iframe{
+        width: 50%;
+    }
+
+    #comentarios-container{
+        width: 100%;
+    }
+
+    .comentario-container{
+        width: 40%;
     }
 }
 
