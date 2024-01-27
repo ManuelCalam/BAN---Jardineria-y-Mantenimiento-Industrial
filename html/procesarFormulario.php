@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 }, 0);
             };
         </script>';
-        
+
         $captcha_error_info = json_encode($recaptcha_data);
         error_log("Error en el captcha: {$error_message}. Detalles: {$captcha_error_info}", 0);
         die($error_message);

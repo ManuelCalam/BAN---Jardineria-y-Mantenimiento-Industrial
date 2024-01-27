@@ -53,7 +53,7 @@
                 <div id="cont_titulo"><h1 id="titulo_form">CONTÁCTANOS</h1></div>
                 <div id="cont_descripcion"><p id="descripcion">¿Necesitas ayuda? Estamos aquí para asistirte, ¡escríbenos!</p></div>
                 
-                <form action="procesarFormulario.php" method="post" id="form">
+                <form action="https://formsubmit.co/devzone.playeras@gmail.com" method="post" id="form">
                     <section id="form_uno">
                         <label for="nombre">Nombre</label>
                         <input type="text" id="nombre" name="nombre" required>
@@ -99,9 +99,11 @@
                         </select>
 
                         <p style="color: white;">Leyenda de privacidad de los datos del usuarios</p>
-                        <div id="captcha" class="g-recaptcha" data-sitekey="6LfOmVopAAAAAP_8mAZGzB176NlSAsaztCQhMSOP"></div> 
+                        <div id="captcha" class="g-recaptcha" data-sitekey="6LfOmVopAAAAAP_8mAZGzB176NlSAsaztCQhMSOP" action="verificarCaptcha.php"> </div>
                     </section>
                     <div id="cont_btn"><button id="btn_enviar">Enviar</button></div>
+                    <input type="hidden" name="_next" value="http://localhost/BAN---Jardineria-y-Mantenimiento-Industrial/html/Contacto.html">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
 
                 <div id="ubicacion">                
